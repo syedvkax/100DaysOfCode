@@ -11,5 +11,7 @@ for student in student_heights:
   student += student
   count += 1
 
+# Calculation of Average height of students
+
 avg_height = student / count
 print(f"Average height of student is: {avg_height}")
