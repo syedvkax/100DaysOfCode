@@ -12,7 +12,7 @@ elif bmiCalculator <= 30.0:
   print("Your BMI is ",bmiCalculator," You are over weight")
 elif bmiCalculator <= 35.0:
   print("Your BMI is ",bmiCalculator," You are obese")
-elif bmiCalculator <= 35.0:
+elif bmiCalculator > 35.0:
   print("Your BMI is ",bmiCalculator," You are clinically obese")
 else:
   print("Invalid Input")
